@@ -1,18 +1,21 @@
 {  
-    "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:add_velocity",
-          "y": 1,
-          "space": "world"
-        }
-      ]
-    },
-    "cooldown": 400,
-    "key": {
-      "key": "key.sprint",
-      "continuous": false
-    }
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "y": 2,
+        "space": "world"
+      }
+    ]
+  },
+  "cooldown": 400,
+  "key": {
+    "key": "key.sprint",
+    "continuous": false
+  },
+  "condition": {
+    "type": "origins:sneaking"
+  }
 }
