@@ -1,0 +1,10 @@
+ {
+	"powers": [
+		"tutorial:dash"
+	],
+	"icon": "minecraft:dirt",
+	"order": 99,
+	"impact": 3,
+	"name": "Tutorial!",
+	"description":"Our First Origin!"
+}
