@@ -1,0 +1,7 @@
+{
+    "name": "A wicked, yet, useful corruption",
+    "description": "",
+
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:wither"
+} 

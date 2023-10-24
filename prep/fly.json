@@ -1,0 +1,9 @@
+{
+  "name": "Divine descend",
+  "description": "Your wings, yet crumbling on themselves, can still guide you through the way",
+
+  "type": "origins:elytra_flight",
+  "render_elytra": true,
+  "texture_location": "cambia este al de las elytras de dragón"
+  
+} 
