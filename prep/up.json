@@ -11,6 +11,10 @@
     ]
   },
   "cooldown": 400,
+  "hud_render":{
+    "should_render": true,
+    "":""
+  },
   "key": {
     "key": "key.sprint",
     "continuous": false
