@@ -1,0 +1,11 @@
+ {
+	"powers": [
+		"withered:skull",
+		"withered:flee"
+	],
+	"icon": "minecraft:wither_rose",
+	"order": 99,
+	"impact": 3,
+	"name": "Whithered Phoenix",
+	"description":"This one is long expired, and yet, refuses to die"
+}

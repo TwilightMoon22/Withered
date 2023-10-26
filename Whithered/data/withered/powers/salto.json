@@ -1,0 +1,26 @@
+{
+    "name": "Salto",
+    "description": "Usa la secundaria para saltar",
+  
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:add_velocity",
+          "y": 2,
+          "space": "world"
+        }
+      ]
+    },
+    "cooldown": 50,
+    "hud_render": {
+      "should_render": true,
+      "spite_location":"origins:textures/gui/resource_bar.png",
+      "bar_index": "3"
+    },
+    "key": {
+      "key": "key.origins.secondary_active",
+      "continuous": false
+    }
+  }
