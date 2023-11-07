@@ -1,0 +1,51 @@
+{
+  "name": "Corrupting flee",
+  "description": "A flap of your crippled wings sends you flying back, infecting them with your corruption",
+
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "y": 1,
+        "space": "world"
+      },
+      {
+        "type": "origins:add_velocity",
+        "z": -1,
+        "space": "local"
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": "8",
+        "bientity_action": {
+          "type":"origins:target_action",
+          "action":{
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:wither",
+              "amplifier": 3,
+              "duration": 100,
+              "show_particles": true,
+              "show_icon": false
+            }
+          }
+        },
+        "bientity_condition": {
+          "type": "origins:can_see"
+        }
+      }
+    ]
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 14
+  },
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  }
+}
